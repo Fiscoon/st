@@ -2084,7 +2084,7 @@ run:
 	if (!opt_title)
 		opt_title = (opt_line || !opt_cmd) ? "st" : opt_cmd[0];
 
-	setlocale(LC_CTYPE, "");
+	setlocale(LC_CTYPE, "en_US.UTF-8");
 	XSetLocaleModifiers("");
 	cols = MAX(cols, 1);
 	rows = MAX(rows, 1);
